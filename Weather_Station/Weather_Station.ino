@@ -35,6 +35,7 @@ const char* ntpServerName = "time.nist.gov";
 const int NTP_PACKET_SIZE = 48; // NTP time stamp is in the first 48 bytes of the message
 byte packetBuffer[ NTP_PACKET_SIZE]; //buffer to hold incoming and outgoing packets
 
+//constants are used for DB fields
 const String yearPath       = "Year";
 const String monthPath      = yearPath + "/Month";
 const String dayPath        = monthPath + "/Day";
